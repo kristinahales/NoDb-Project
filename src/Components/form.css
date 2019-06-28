@@ -1,0 +1,28 @@
+.form-container {
+    background: white;
+    flex: 0 1 180px;
+    height: 350px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid black;
+}
+
+.submit-button {
+    border-radius: 2px;
+    background: #A31621;
+    border: 1px solid darkgray;
+    color: white;
+    padding: 6px 10px;
+    margin-top: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+input {
+    border: 2px solid darkgray;
+}
+
+
+
