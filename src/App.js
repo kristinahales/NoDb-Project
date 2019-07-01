@@ -4,6 +4,7 @@ import axios from 'axios';
 import Header from './Components/Header';
 import DisplayMovies from './Components/DisplayMovies';
 import Form from './Components/Form';
+import Footer from './Components/Footer'
 
 
 
@@ -95,9 +96,8 @@ class App extends Component {
           );
           })}
           <Form addMovie={this.addMovie}/>
-          
         </div>
-        
+        <Footer />
     </div>
     
     )
